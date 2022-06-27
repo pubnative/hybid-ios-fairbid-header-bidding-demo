@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349207C2286A28CD0046D030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207C1286A28CD0046D030 /* AppDelegate.swift */; };
+		349207C4286A28CD0046D030 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207C3286A28CD0046D030 /* SceneDelegate.swift */; };
+		349207C9286A28CD0046D030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349207C7286A28CD0046D030 /* Main.storyboard */; };
+		349207CB286A28CD0046D030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349207CA286A28CD0046D030 /* Assets.xcassets */; };
+		349207CE286A28CD0046D030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349207CC286A28CD0046D030 /* LaunchScreen.storyboard */; };
+		349207DA286A2E040046D030 /* HyBid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D6286A2CBD0046D030 /* HyBid.xcframework */; };
+		349207DB286A2E040046D030 /* HyBid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D6286A2CBD0046D030 /* HyBid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		349207DD286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */; };
+		349207DE286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		349207E2286A2ED40046D030 /* Interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207DF286A2ED40046D030 /* Interstitial.swift */; };
+		349207E3286A2ED40046D030 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207E0286A2ED40046D030 /* Banner.swift */; };
+		349207E4286A2ED40046D030 /* Rewarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207E1286A2ED40046D030 /* Rewarded.swift */; };
+		349207E7286A2F470046D030 /* FairBidHeaderBidding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349207E6286A2F470046D030 /* FairBidHeaderBidding.storyboard */; };
+		42026D80AE52D7604221E962 /* Pods_FairBid_Header_Bidding_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E447DDD64ED3F0A576BFF13 /* Pods_FairBid_Header_Bidding_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		349207DC286A2E040046D030 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				349207DB286A2E040046D030 /* HyBid.xcframework in Embed Frameworks */,
+				349207DE286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		349207BE286A28CD0046D030 /* FairBid Header Bidding Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FairBid Header Bidding Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349207C1286A28CD0046D030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		349207C3286A28CD0046D030 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		349207C8286A28CD0046D030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		349207CA286A28CD0046D030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349207CD286A28CD0046D030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		349207CF286A28CD0046D030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349207D6286A2CBD0046D030 /* HyBid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HyBid.xcframework; sourceTree = "<group>"; };
+		349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Pubnativenet.xcframework; sourceTree = "<group>"; };
+		349207DF286A2ED40046D030 /* Interstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interstitial.swift; sourceTree = "<group>"; };
+		349207E0286A2ED40046D030 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		349207E1286A2ED40046D030 /* Rewarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rewarded.swift; sourceTree = "<group>"; };
+		349207E6286A2F470046D030 /* FairBidHeaderBidding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FairBidHeaderBidding.storyboard; sourceTree = "<group>"; };
+		4E447DDD64ED3F0A576BFF13 /* Pods_FairBid_Header_Bidding_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FairBid_Header_Bidding_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3E75F5807D9892344D167C /* Pods-FairBid Header Bidding Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairBid Header Bidding Demo.release.xcconfig"; path = "Target Support Files/Pods-FairBid Header Bidding Demo/Pods-FairBid Header Bidding Demo.release.xcconfig"; sourceTree = "<group>"; };
+		8001C90279E3DBB8E7175C11 /* Pods-FairBid Header Bidding Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairBid Header Bidding Demo.debug.xcconfig"; path = "Target Support Files/Pods-FairBid Header Bidding Demo/Pods-FairBid Header Bidding Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349207BB286A28CD0046D030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349207DA286A2E040046D030 /* HyBid.xcframework in Frameworks */,
+				349207DD286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Frameworks */,
+				42026D80AE52D7604221E962 /* Pods_FairBid_Header_Bidding_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05850D2BC9A8727596C30BA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8001C90279E3DBB8E7175C11 /* Pods-FairBid Header Bidding Demo.debug.xcconfig */,
+				6A3E75F5807D9892344D167C /* Pods-FairBid Header Bidding Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		349207B5286A28CD0046D030 = {
+			isa = PBXGroup;
+			children = (
+				349207C0286A28CD0046D030 /* FairBid Header Bidding Demo */,
+				349207BF286A28CD0046D030 /* Products */,
+				05850D2BC9A8727596C30BA6 /* Pods */,
+				B61E828B1B54A3E5F049FCB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		349207BF286A28CD0046D030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349207BE286A28CD0046D030 /* FairBid Header Bidding Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349207C0286A28CD0046D030 /* FairBid Header Bidding Demo */ = {
+			isa = PBXGroup;
+			children = (
+				349207D5286A2C9B0046D030 /* HyBid-2.13.1 */,
+				349207C1286A28CD0046D030 /* AppDelegate.swift */,
+				349207C3286A28CD0046D030 /* SceneDelegate.swift */,
+				349207E5286A2F170046D030 /* Examples */,
+				349207E8286A304B0046D030 /* Storyboards */,
+				349207CA286A28CD0046D030 /* Assets.xcassets */,
+				349207CC286A28CD0046D030 /* LaunchScreen.storyboard */,
+				349207CF286A28CD0046D030 /* Info.plist */,
+			);
+			path = "FairBid Header Bidding Demo";
+			sourceTree = "<group>";
+		};
+		349207D5286A2C9B0046D030 /* HyBid-2.13.1 */ = {
+			isa = PBXGroup;
+			children = (
+				349207D6286A2CBD0046D030 /* HyBid.xcframework */,
+				349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */,
+			);
+			path = "HyBid-2.13.1";
+			sourceTree = "<group>";
+		};
+		349207E5286A2F170046D030 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				349207E0286A2ED40046D030 /* Banner.swift */,
+				349207DF286A2ED40046D030 /* Interstitial.swift */,
+				349207E1286A2ED40046D030 /* Rewarded.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		349207E8286A304B0046D030 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				349207C7286A28CD0046D030 /* Main.storyboard */,
+				349207E6286A2F470046D030 /* FairBidHeaderBidding.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B61E828B1B54A3E5F049FCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E447DDD64ED3F0A576BFF13 /* Pods_FairBid_Header_Bidding_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349207BD286A28CD0046D030 /* FairBid Header Bidding Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349207D2286A28CD0046D030 /* Build configuration list for PBXNativeTarget "FairBid Header Bidding Demo" */;
+			buildPhases = (
+				5E12DC42205226F565D54F17 /* [CP] Check Pods Manifest.lock */,
+				349207BA286A28CD0046D030 /* Sources */,
+				349207BB286A28CD0046D030 /* Frameworks */,
+				349207BC286A28CD0046D030 /* Resources */,
+				054BB13C9CEAE16486B0F79E /* [CP] Embed Pods Frameworks */,
+				349207DC286A2E040046D030 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FairBid Header Bidding Demo";
+			productName = "FairBid Header Bidding Demo";
+			productReference = 349207BE286A28CD0046D030 /* FairBid Header Bidding Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349207B6286A28CD0046D030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					349207BD286A28CD0046D030 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 349207B9286A28CD0046D030 /* Build configuration list for PBXProject "FairBid Header Bidding Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349207B5286A28CD0046D030;
+			productRefGroup = 349207BF286A28CD0046D030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349207BD286A28CD0046D030 /* FairBid Header Bidding Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349207BC286A28CD0046D030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349207CE286A28CD0046D030 /* LaunchScreen.storyboard in Resources */,
+				349207E7286A2F470046D030 /* FairBidHeaderBidding.storyboard in Resources */,
+				349207CB286A28CD0046D030 /* Assets.xcassets in Resources */,
+				349207C9286A28CD0046D030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		054BB13C9CEAE16486B0F79E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairBid Header Bidding Demo/Pods-FairBid Header Bidding Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairBid Header Bidding Demo/Pods-FairBid Header Bidding Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FairBid Header Bidding Demo/Pods-FairBid Header Bidding Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E12DC42205226F565D54F17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FairBid Header Bidding Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349207BA286A28CD0046D030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349207C2286A28CD0046D030 /* AppDelegate.swift in Sources */,
+				349207E3286A2ED40046D030 /* Banner.swift in Sources */,
+				349207C4286A28CD0046D030 /* SceneDelegate.swift in Sources */,
+				349207E4286A2ED40046D030 /* Rewarded.swift in Sources */,
+				349207E2286A2ED40046D030 /* Interstitial.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		349207C7286A28CD0046D030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349207C8286A28CD0046D030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		349207CC286A28CD0046D030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349207CD286A28CD0046D030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349207D0286A28CD0046D030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349207D1286A28CD0046D030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349207D3286A28CD0046D030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8001C90279E3DBB8E7175C11 /* Pods-FairBid Header Bidding Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FairBid Header Bidding Demo/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.FairBid-Header-Bidding-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349207D4286A28CD0046D030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3E75F5807D9892344D167C /* Pods-FairBid Header Bidding Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FairBid Header Bidding Demo/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.pubnative.FairBid-Header-Bidding-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349207B9286A28CD0046D030 /* Build configuration list for PBXProject "FairBid Header Bidding Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349207D0286A28CD0046D030 /* Debug */,
+				349207D1286A28CD0046D030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349207D2286A28CD0046D030 /* Build configuration list for PBXNativeTarget "FairBid Header Bidding Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349207D3286A28CD0046D030 /* Debug */,
+				349207D4286A28CD0046D030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349207B6286A28CD0046D030 /* Project object */;
+}

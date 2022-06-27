@@ -1,0 +1,6 @@
+framework module Pods_FairBid_Header_Bidding_Demo {
+  umbrella header "Pods-FairBid Header Bidding Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
