@@ -134,7 +134,7 @@
         <!--FairBid Header Bidding Interstitial-->
         <scene sceneID="FXE-l5-k5P">
             <objects>
-                <viewController title="FairBid Mediation Interstitial" id="7Ks-Sv-EkA" userLabel="FairBid Header Bidding Interstitial" customClass="Interstitial" customModule="FairBid_Header_Bidding_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="FairBid Header Bidding Interstitial" id="7Ks-Sv-EkA" userLabel="FairBid Header Bidding Interstitial" customClass="Interstitial" customModule="FairBid_Header_Bidding_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zdK-RA-BTC"/>
                         <viewControllerLayoutGuide type="bottom" id="xrg-AW-znQ"/>
@@ -202,7 +202,7 @@
         <!--FairBid Header Bidding Rewarded-->
         <scene sceneID="Csi-yD-9xW">
             <objects>
-                <viewController title="FairBid Mediation Rewarded" id="u6W-XF-Azq" userLabel="FairBid Header Bidding Rewarded" customClass="Rewarded" customModule="FairBid_Header_Bidding_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="FairBid Header Bidding Rewarded" id="u6W-XF-Azq" userLabel="FairBid Header Bidding Rewarded" customClass="Rewarded" customModule="FairBid_Header_Bidding_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pop-ag-dm6"/>
                         <viewControllerLayoutGuide type="bottom" id="v2Z-Y7-Lm7"/>
