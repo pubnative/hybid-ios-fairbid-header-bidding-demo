@@ -12,14 +12,14 @@
 		349207C9286A28CD0046D030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349207C7286A28CD0046D030 /* Main.storyboard */; };
 		349207CB286A28CD0046D030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349207CA286A28CD0046D030 /* Assets.xcassets */; };
 		349207CE286A28CD0046D030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349207CC286A28CD0046D030 /* LaunchScreen.storyboard */; };
-		349207DA286A2E040046D030 /* HyBid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D6286A2CBD0046D030 /* HyBid.xcframework */; };
-		349207DB286A2E040046D030 /* HyBid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D6286A2CBD0046D030 /* HyBid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		349207DD286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */; };
-		349207DE286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		349207E2286A2ED40046D030 /* Interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207DF286A2ED40046D030 /* Interstitial.swift */; };
 		349207E3286A2ED40046D030 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207E0286A2ED40046D030 /* Banner.swift */; };
 		349207E4286A2ED40046D030 /* Rewarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349207E1286A2ED40046D030 /* Rewarded.swift */; };
 		349207E7286A2F470046D030 /* FairBidHeaderBidding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349207E6286A2F470046D030 /* FairBidHeaderBidding.storyboard */; };
+		34A392D728CA1FCA00F72045 /* HyBid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A392D328CA1FA100F72045 /* HyBid.xcframework */; };
+		34A392D828CA1FCA00F72045 /* HyBid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34A392D328CA1FA100F72045 /* HyBid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34A392D928CA1FCC00F72045 /* OMSDK_Pubnativenet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A392D528CA1FAB00F72045 /* OMSDK_Pubnativenet.xcframework */; };
+		34A392DA28CA1FCC00F72045 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34A392D528CA1FAB00F72045 /* OMSDK_Pubnativenet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		42026D80AE52D7604221E962 /* Pods_FairBid_Header_Bidding_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E447DDD64ED3F0A576BFF13 /* Pods_FairBid_Header_Bidding_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				349207DB286A2E040046D030 /* HyBid.xcframework in Embed Frameworks */,
-				349207DE286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */,
+				34A392D828CA1FCA00F72045 /* HyBid.xcframework in Embed Frameworks */,
+				34A392DA28CA1FCC00F72045 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,12 +46,12 @@
 		349207CA286A28CD0046D030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		349207CD286A28CD0046D030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		349207CF286A28CD0046D030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		349207D6286A2CBD0046D030 /* HyBid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HyBid.xcframework; sourceTree = "<group>"; };
-		349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Pubnativenet.xcframework; sourceTree = "<group>"; };
 		349207DF286A2ED40046D030 /* Interstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interstitial.swift; sourceTree = "<group>"; };
 		349207E0286A2ED40046D030 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		349207E1286A2ED40046D030 /* Rewarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rewarded.swift; sourceTree = "<group>"; };
 		349207E6286A2F470046D030 /* FairBidHeaderBidding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FairBidHeaderBidding.storyboard; sourceTree = "<group>"; };
+		34A392D328CA1FA100F72045 /* HyBid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HyBid.xcframework; sourceTree = "<group>"; };
+		34A392D528CA1FAB00F72045 /* OMSDK_Pubnativenet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Pubnativenet.xcframework; sourceTree = "<group>"; };
 		4E447DDD64ED3F0A576BFF13 /* Pods_FairBid_Header_Bidding_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FairBid_Header_Bidding_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3E75F5807D9892344D167C /* Pods-FairBid Header Bidding Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairBid Header Bidding Demo.release.xcconfig"; path = "Target Support Files/Pods-FairBid Header Bidding Demo/Pods-FairBid Header Bidding Demo.release.xcconfig"; sourceTree = "<group>"; };
 		8001C90279E3DBB8E7175C11 /* Pods-FairBid Header Bidding Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairBid Header Bidding Demo.debug.xcconfig"; path = "Target Support Files/Pods-FairBid Header Bidding Demo/Pods-FairBid Header Bidding Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349207DA286A2E040046D030 /* HyBid.xcframework in Frameworks */,
-				349207DD286A2E050046D030 /* OMSDK_Pubnativenet.xcframework in Frameworks */,
+				34A392D728CA1FCA00F72045 /* HyBid.xcframework in Frameworks */,
+				34A392D928CA1FCC00F72045 /* OMSDK_Pubnativenet.xcframework in Frameworks */,
 				42026D80AE52D7604221E962 /* Pods_FairBid_Header_Bidding_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +101,7 @@
 		349207C0286A28CD0046D030 /* FairBid Header Bidding Demo */ = {
 			isa = PBXGroup;
 			children = (
-				349207D5286A2C9B0046D030 /* HyBid-2.13.1 */,
+				349207D5286A2C9B0046D030 /* HyBid-2.16.0-beta1 */,
 				349207C1286A28CD0046D030 /* AppDelegate.swift */,
 				349207C3286A28CD0046D030 /* SceneDelegate.swift */,
 				349207E5286A2F170046D030 /* Examples */,
@@ -113,13 +113,13 @@
 			path = "FairBid Header Bidding Demo";
 			sourceTree = "<group>";
 		};
-		349207D5286A2C9B0046D030 /* HyBid-2.13.1 */ = {
+		349207D5286A2C9B0046D030 /* HyBid-2.16.0-beta1 */ = {
 			isa = PBXGroup;
 			children = (
-				349207D6286A2CBD0046D030 /* HyBid.xcframework */,
-				349207D8286A2CC50046D030 /* OMSDK_Pubnativenet.xcframework */,
+				34A392D328CA1FA100F72045 /* HyBid.xcframework */,
+				34A392D528CA1FAB00F72045 /* OMSDK_Pubnativenet.xcframework */,
 			);
-			path = "HyBid-2.13.1";
+			path = "HyBid-2.16.0-beta1";
 			sourceTree = "<group>";
 		};
 		349207E5286A2F170046D030 /* Examples */ = {
